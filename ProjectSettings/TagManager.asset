@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Projectile
+  - Floor
   layers:
   - Default
   - TransparentFX
@@ -14,7 +16,7 @@ TagManager:
   - Player
   - Platform
   - Floor
-  - 
+  - Projectile
   - 
   - 
   - 
@@ -38,6 +40,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 3898679937
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Projectile
+    uniqueID: 1983288111
+    locked: 0
+  - name: Player
+    uniqueID: 1188760347
+    locked: 0
+  - name: FG
+    uniqueID: 796987411
     locked: 0
